@@ -13,6 +13,7 @@ class HabitacionController extends Controller
     public function index()
     {
         //
+        // Fetch all habitaciones from the database
     }
 
     /**
