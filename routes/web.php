@@ -6,6 +6,7 @@ use App\Http\Controllers\SocialController;
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/login', function () {
     return view('login');
 })->name('login');
