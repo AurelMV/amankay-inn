@@ -162,9 +162,14 @@
             <button type="submit">Ingresar</button>
         </form>
 
-        <div class="divider"><span>o continua con</span></div>
+        <div style="text-align:center; margin-top:15px;">
+        ¿No tienes cuenta?
+        <a href="{{ url('/register') }}">Regístrate aquí</a>
+    </div>
 
-        <div class="social-buttons">
+    <div class="divider"><span>o continua con</span></div>
+
+    <div class="social-buttons">
             <a href="{{ url('/auth/google') }}" class="btn-social btn-google">Iniciar con Google</a>
             <a href="{{ url('/auth/facebook') }}" class="btn-social btn-facebook">Iniciar con Facebook</a>
         </div>
